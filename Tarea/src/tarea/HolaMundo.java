@@ -5,6 +5,8 @@
  */
 package tarea;
 
+import java.util.Date;
+
 /**
  *
  * @author munoz
@@ -16,6 +18,8 @@ public class HolaMundo {
      */
     public static void main(String[] args) {
         System.out.println("Hola Mundoo");
+        Date ahora=new Date();
+        System.out.printf("%s %tT", "son las ", ahora);
     }
     
 }
